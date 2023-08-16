@@ -33,7 +33,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/companies?filters=veniam elit in&linkedContactsIds=13396752&linkedDealsIds=veniam elit in&page=13396752&limit=13396752&sort=desc&sortBy=veniam elit in",
+									"raw": "{{baseUrl}}/companies",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -44,37 +44,44 @@
 										{
 											"key": "filters",
 											"value": "veniam elit in",
-											"description": "Filter by attrbutes. If you have filter for owner on your side please send it as {\"attributes.owner\":\"6299dcf3874a14eacbc65c46\"}"
+											"description": "Filter by attrbutes. If you have filter for owner on your side please send it as {\"attributes.owner\":\"6299dcf3874a14eacbc65c46\"}",
+											"disabled": true
 										},
 										{
 											"key": "linkedContactsIds",
 											"value": "13396752",
-											"description": "Filter by linked contacts ids"
+											"description": "Filter by linked contacts ids",
+											"disabled": true
 										},
 										{
 											"key": "linkedDealsIds",
 											"value": "veniam elit in",
-											"description": "Filter by linked Deals ids"
+											"description": "Filter by linked Deals ids",
+											"disabled": true
 										},
 										{
 											"key": "page",
 											"value": "13396752",
-											"description": "Index of the first document of the page"
+											"description": "Index of the first document of the page",
+											"disabled": true
 										},
 										{
 											"key": "limit",
 											"value": "13396752",
-											"description": "Number of documents per page"
+											"description": "Number of documents per page",
+											"disabled": true
 										},
 										{
 											"key": "sort",
 											"value": "desc",
-											"description": "Sort the results in the ascending/descending order. Default order is **descending** by creation if `sort` is not passed"
+											"description": "Sort the results in the ascending/descending order. Default order is **descending** by creation if `sort` is not passed",
+											"disabled": true
 										},
 										{
 											"key": "sortBy",
 											"value": "veniam elit in",
-											"description": "The field used to sort field names."
+											"description": "The field used to sort field names.",
+											"disabled": true
 										}
 									]
 								}
@@ -26941,13 +26948,13 @@
 	],
 	"variable": [
 		{
-			"id": "10b32475-f94d-4222-a083-6c2cbdcef8ae",
+			"id": "50d8906f-a95a-405b-8142-4d7aaed8c3d1",
 			"key": "baseUrl",
 			"value": "https://api.sendinblue.com/v3",
 			"type": "string"
 		},
 		{
-			"id": "e8c1c545-f61e-4deb-8ba6-1c751f50d676",
+			"id": "1715d27e-5870-4088-86a4-d03e65f6ab3c",
 			"key": "send_in_blue_api_key",
 			"value": "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"
 		}
