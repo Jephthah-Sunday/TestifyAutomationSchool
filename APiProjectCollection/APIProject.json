@@ -26921,34 +26921,34 @@
 		{
 			"listen": "prerequest",
 			"script": {
+				"id": "dddffc2c-2f5b-4c79-943f-eb46296a50a6",
 				"type": "text/javascript",
 				"exec": [
 					""
-				],
-				"id": "49f29f47-c423-4f8f-b8bf-63a854e63687"
+				]
 			}
 		},
 		{
 			"listen": "test",
 			"script": {
+				"id": "797ac06c-1c11-4331-8fd0-1f45c2b7368b",
 				"type": "text/javascript",
 				"exec": [
 					""
-				],
-				"id": "fea7b1e2-acad-4b6d-83a2-01c1d93f3330"
+				]
 			}
 		}
 	],
 	"variable": [
 		{
-			"id": "1d37cee8-2a75-42cd-bf05-aff74816d1ac",
+			"id": "91085cdd-969a-4bf1-8c94-7e4e7fa359d6",
 			"key": "baseUrl",
 			"value": "https://api.sendinblue.com/v3",
 			"type": "string"
 		},
 		{
-			"id": "1d4f6df3-ff24-489d-b19d-e223c555920a",
-			"key": "send_in_blue_api_key",
+			"id": "7aff6080-440a-4d72-8f47-17762ee40480",
+			"key": "api_key",
 			"value": "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"
 		}
 	]
