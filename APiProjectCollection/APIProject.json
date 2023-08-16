@@ -21,7 +21,7 @@
 								"auth": {
 									"type": "apikey",
 									"apikey": {
-										"value": "{{api-key}}",
+										"value": "{{api_key}}",
 										"key": "api-key"
 									}
 								},
@@ -26941,13 +26941,13 @@
 	],
 	"variable": [
 		{
-			"id": "91085cdd-969a-4bf1-8c94-7e4e7fa359d6",
+			"id": "4c005cc4-fec4-447b-988d-f7163600d3a0",
 			"key": "baseUrl",
 			"value": "https://api.sendinblue.com/v3",
 			"type": "string"
 		},
 		{
-			"id": "7aff6080-440a-4d72-8f47-17762ee40480",
+			"id": "5c22b089-f92c-48d6-8ff2-8dcdc51ef08d",
 			"key": "api_key",
 			"value": "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"
 		}
