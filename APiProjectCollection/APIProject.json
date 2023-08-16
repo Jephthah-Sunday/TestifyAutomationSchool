@@ -15689,7 +15689,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{baseUrl}}/smtp/emails?email=veniam elit in&templateId=13396752&messageId=veniam elit in&startDate=veniam elit in&endDate=veniam elit in&sort=desc&limit=500&offset=0",
+									"raw": "{{baseUrl}}/smtp/emails?email=sundaychimezie96@gmail.com",
 									"host": [
 										"{{baseUrl}}"
 									],
@@ -15700,43 +15700,50 @@
 									"query": [
 										{
 											"key": "email",
-											"value": "veniam elit in",
+											"value": "sundaychimezie96@gmail.com",
 											"description": "**Mandatory if templateId and messageId are not passed in query filters.** Email address to which transactional email has been sent.\n"
 										},
 										{
 											"key": "templateId",
 											"value": "13396752",
-											"description": "**Mandatory if email and messageId are not passed in query filters.** Id of the template that was used to compose transactional email.\n"
+											"description": "**Mandatory if email and messageId are not passed in query filters.** Id of the template that was used to compose transactional email.\n",
+											"disabled": true
 										},
 										{
 											"key": "messageId",
 											"value": "veniam elit in",
-											"description": "**Mandatory if templateId and email are not passed in query filters.** Message ID of the transactional email sent.\n"
+											"description": "**Mandatory if templateId and email are not passed in query filters.** Message ID of the transactional email sent.\n",
+											"disabled": true
 										},
 										{
 											"key": "startDate",
 											"value": "veniam elit in",
-											"description": "**Mandatory if endDate is used.** Starting date (YYYY-MM-DD) from which you want to fetch the list. **Maximum time period that can be selected is one month**.\n"
+											"description": "**Mandatory if endDate is used.** Starting date (YYYY-MM-DD) from which you want to fetch the list. **Maximum time period that can be selected is one month**.\n",
+											"disabled": true
 										},
 										{
 											"key": "endDate",
 											"value": "veniam elit in",
-											"description": "**Mandatory if startDate is used.** Ending date (YYYY-MM-DD) till which you want to fetch the list. **Maximum time period that can be selected is one month.**\n"
+											"description": "**Mandatory if startDate is used.** Ending date (YYYY-MM-DD) till which you want to fetch the list. **Maximum time period that can be selected is one month.**\n",
+											"disabled": true
 										},
 										{
 											"key": "sort",
 											"value": "desc",
-											"description": "Sort the results in the ascending/descending order of record creation. Default order is **descending** if `sort` is not passed"
+											"description": "Sort the results in the ascending/descending order of record creation. Default order is **descending** if `sort` is not passed",
+											"disabled": true
 										},
 										{
 											"key": "limit",
 											"value": "500",
-											"description": "Number of documents returned per page"
+											"description": "Number of documents returned per page",
+											"disabled": true
 										},
 										{
 											"key": "offset",
 											"value": "0",
-											"description": "Index of the first document in the page"
+											"description": "Index of the first document in the page",
+											"disabled": true
 										}
 									]
 								},
@@ -26948,13 +26955,13 @@
 	],
 	"variable": [
 		{
-			"id": "50d8906f-a95a-405b-8142-4d7aaed8c3d1",
+			"id": "9c483074-e8c3-4471-9743-8e93f512cdad",
 			"key": "baseUrl",
 			"value": "https://api.sendinblue.com/v3",
 			"type": "string"
 		},
 		{
-			"id": "1715d27e-5870-4088-86a4-d03e65f6ab3c",
+			"id": "3a7ce9e3-71e4-4b7e-adee-e7a1126c5d1e",
 			"key": "send_in_blue_api_key",
 			"value": "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"
 		}
