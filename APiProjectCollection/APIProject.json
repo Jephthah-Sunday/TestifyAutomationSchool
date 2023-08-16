@@ -26921,7 +26921,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "c2085f01-1a72-48c3-9994-7b891831ffc1",
+				"id": "394e39c2-7598-49fe-87fd-d34ce2f7ea92",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -26931,7 +26931,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "81c5cb97-d7f5-4bc6-be86-8aa7f21b3d91",
+				"id": "1f09372b-ebbc-4438-962a-0edd35c41c3b",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -26941,14 +26941,14 @@
 	],
 	"variable": [
 		{
-			"id": "ff08c0be-227e-4c70-a601-866826f93ba0",
+			"id": "c5017afb-80ea-4a49-bdba-adbe8ed5b673",
 			"key": "baseUrl",
 			"value": "https://api.sendinblue.com/v3",
 			"type": "string"
 		},
 		{
-			"id": "d04d914f-6dd9-4da2-a2b6-0e1e00af8c1e",
-			"key": "api_key",
+			"id": "80a018f2-f3b7-43e0-a0ad-d88be8d1dd55",
+			"key": "send_in_blue_api_key",
 			"value": "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"
 		}
 	]
