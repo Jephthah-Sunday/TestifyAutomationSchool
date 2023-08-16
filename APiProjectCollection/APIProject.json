@@ -26941,10 +26941,15 @@
 	],
 	"variable": [
 		{
-			"id": "eb7f66d0-34e2-470a-a62b-33329dc50894",
+			"id": "1d37cee8-2a75-42cd-bf05-aff74816d1ac",
 			"key": "baseUrl",
 			"value": "https://api.sendinblue.com/v3",
 			"type": "string"
+		},
+		{
+			"id": "1d4f6df3-ff24-489d-b19d-e223c555920a",
+			"key": "send_in_blue_api_key",
+			"value": "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"
 		}
 	]
 }
